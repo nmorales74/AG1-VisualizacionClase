@@ -21,4 +21,5 @@ d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Activi
   .y('value')
   .axes({ ticks: 'false' })
   .draw();
-  });
+  })
+  ;
