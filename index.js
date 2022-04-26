@@ -1,6 +1,6 @@
 import "./style.css"
 
-var data = [
+var data3 = [
   {"year": 1991, "name":"alpha", "value": 15},
   {"year": 1992, "name":"alpha", "value": 34},
   {"year": 1991, "name":"alpha2", "value": 17},
@@ -23,7 +23,7 @@ var data = [
 var visualization = d3plus.viz()
 .container("#viz1")
 .data([{"year": 1991, "name":"alpha", "value": 15},
-{"year": 1992, "name":"alpha", "value": 20},])
+{"year": 1992, "name":"alpha", "value": 20}])
 .type("bar")
 .id("name")
 .x("year")
@@ -43,9 +43,9 @@ d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Activi
   })
 
 //Gráfico de columnas. Mi 1º gráfico
-d3plus.viz()
+var visualizacion3 = d3plus.viz()
 .container("#viz3")
-.data(data)
+.data(data3)
 .type("box")
 .id("name")
 .x("year")
