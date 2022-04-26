@@ -42,8 +42,8 @@ d3.json("https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Activi
   .draw();
   })
 
-  //Gráfico de columnas. Mi 1º gráfico
-var visualization = d3plus.viz()
+//Gráfico de columnas. Mi 1º gráfico
+d3plus.viz()
 .container("#viz3")
 .data(data)
 .type("box")
